@@ -17,4 +17,3 @@ class Circle(Figure):
     @property
     def area(self):
         return math.pi * self.radius ** 2
-

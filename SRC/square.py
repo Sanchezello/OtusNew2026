@@ -9,4 +9,3 @@ class Square(Rectangle):
                              f'actual {side_a}')
 
         super().__init__(side_a, side_a)
-

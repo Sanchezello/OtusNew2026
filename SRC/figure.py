@@ -17,4 +17,3 @@ class Figure(ABC):
         if isinstance(figure, Figure):
             return self.area + figure.area
         raise ValueError('Argument figure must be rectangle or child class')
-

@@ -28,3 +28,4 @@ class Triangle(Figure):
         s = self.perimeter / 2
         return (s * (s - self.side_a) * (s - self.side_b) * (s - self.side_c)
                 ) ** 0.5
+
